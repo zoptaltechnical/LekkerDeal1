@@ -1,0 +1,88 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+@import url('fonts.css');
+
+/* General Custom CSS */
+
+body{font-weight:lighter;}
+
+#footer.container_wrap.footer_color {padding: 15px 15%;}
+
+h3.av-special-heading-tag, .av-subheading_above{text-transform:uppercase;  font-family: 'HelveticaNeue-Bold';}
+
+.footer_bar .fb_one_fourth {font-weight:bolder;}
+.footer_bar .fb_one_fourth span{font-weight:lighter;}
+
+.font_hel_bold{font-family: 'HelveticaNeue-Bold' !important;}
+
+.top_bar_wid{background:#262626;    position: relative; float:left; width:100%;   z-index: 9; padding:0 10px ;}
+
+.top_bar_wid #menu-top_menu{margin:0;}
+
+.top_bar_wid .top_right_menu{float:right;}
+
+.top_bar_wid .top_right_menu ul li{    font-size: 11px;    margin: 0 0 0 15px;    display: inline-block;}
+
+.top_bar_wid .top_left_text{font-size: 11px;float:left;}
+
+.top_bar_wid .widget{padding:0;}
+
+.top_bar_wid .widget p{margin:0;}
+
+.html_visible_cart .cart_dropdown{background:#0095d8;}
+
+#header_main .av-main-nav > li.current_page_item > a{background:#262626;}
+
+#header_main.container_wrap.container_wrap_logo .av-logo-container{padding:0;margin:0;}
+
+#header_main .main_menu{width:89.5%;     left: 13.5%;right:auto;}
+
+#header_main .avia-menu.av-main-nav-wrap{width:92.1%;}
+
+#header_main .av-main-nav li{width:20%; text-align:center;}
+
+#header_main .av-main-nav > li > a{padding:0;text-transform:uppercase;}
+
+.current-menu-item > a > .avia-menu-fx{background:#262626;}
+
+.cart_dropdown_first .cart_dropdown_link{background:#0095d8;}
+
+.html_cart_at_menu.html_main_nav_header #top .main_menu .menu>li:last-child{     padding-right: 0 !important;      margin-right: 0  !important; }
+
+.woocommerce-mini-cart__buttons.buttons, #menu-item-shop .cart_dropdown_link{background:#0095d8 !important;}
+
+.woocommerce-mini-cart-item.mini_cart_item:hover{background:#0095d8 !important;}
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+.footer_bar .fb_one_fourth{width:100%;}
+
+}
+
+
+
+
+
+
+
+
+
